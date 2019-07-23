@@ -1,0 +1,28 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "alwaysStrict": true,
+        "strictBindCallApply": true,
+        "strictFunctionTypes": true,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "noUnusedParameters": true,
+        "noUnusedLocals": true,
+        "experimentalDecorators": true,
+        "declaration": true,
+        "target": "es6",
+        "jsx": "react",
+        "lib": [
+            "es2017",
+            "dom"
+        ],
+        "outDir": "typings"
+    },
+    "include": [
+        "src/**/*"
+    ]
+}

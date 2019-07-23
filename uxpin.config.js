@@ -8,8 +8,9 @@ module.exports = {
           'src/Icon/Icon.js',
           'src/Select/Select/Select.js',
           'src/Select/SelectItem/SelectItem.js',
-          'src/Table/Table.js'
-        ]
+          'src/Table/Table.js',
+          'src/Card/Card.tsx',
+        ],
       },
       {
         name: 'Charts',
@@ -19,10 +20,10 @@ module.exports = {
           'src/MarkChart/MarkChart.js',
           'src/AreaChart/AreaChart.js',
           'src/BarChart/BarChart.js',
-          'src/PieChart/PieChart.js'
-        ]
-      }
-    ]
+          'src/PieChart/PieChart.js',
+        ],
+      },
+    ],
   },
-  name: 'UXPin Merge Boilerplate'
+  name: 'UXPin Merge Boilerplate',
 };
